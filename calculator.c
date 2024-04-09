@@ -16,9 +16,11 @@ int main() {
     if (op == '+')
         printf("%d", fn + sn);
     else if (op == '-')
-        printf("%d", fn * sn);
+        printf("%d", fn - sn);
     else if (op == '*')
         printf("%d", fn * sn);
+    else if (op == '/')
+        printf("%d", fn / sn);
     else
         printf("Invalid Operator");
 
